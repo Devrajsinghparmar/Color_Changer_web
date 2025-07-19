@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin-top:2px;
+}
+body{
+    margin-top: 5%;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 300px;
+    border: 2px solid #000;
+    /* margin-left: 35%;*/
+    margin-top: 1%; 
+    padding: 7%;
+    margin: 3% auto;
+    background-color: #c2eff8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(153, 153, 243);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opecity: 0.6;
+}
+button:hover{
+    background-color: rgb(102, 102, 204);
+    transition: background-color 0.3s ease;
+    opecity: 1;
+    height: 35px;   
+    width: 110px;
+}
